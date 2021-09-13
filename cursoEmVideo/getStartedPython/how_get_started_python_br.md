@@ -36,7 +36,7 @@ Voce pode começar a programar em python logo após instalar o python na sua maq
 
 ## 2. Preparando o seu notebook ou computador <a name="prepare"></a>
 
-    O Python é uma opçao muito boa para novos programadores. Essa forma de trabalhar com o Pyhton descrita no tutorial é a forma que eu gosto atualmente, conforme voce sentir confiança eu gostaria de te encorajar a procurar outras formas para descobrir qual voce prefere ou até mesmo quais existem.
+O Python é uma opçao muito boa para novos programadores. Essa forma de trabalhar com o Pyhton descrita no tutorial é a forma que eu gosto atualmente, conforme voce sentir confiança eu gostaria de te encorajar a procurar outras formas para descobrir qual voce prefere ou até mesmo quais existem.
 
 ### 2.1 Instalando o python <a name="i_py"></a>
 
