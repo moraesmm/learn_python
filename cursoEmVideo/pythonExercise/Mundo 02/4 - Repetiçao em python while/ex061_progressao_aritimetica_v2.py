@@ -3,8 +3,7 @@
 n = int(input('Digite o primeiro termo da PA: ')) #primeiro termo
 r = int(input('Digite a razao da PA: ')) #razao
 d = n + (10 - 1) * r #decimo
-i = n
 
-while i < d + r:
-    print(f'{i}')
-    i += r
+while n < d + r:
+    print(f'{n}')
+    n += r
