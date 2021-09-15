@@ -3,13 +3,11 @@
 print('-=-' * 20)
 print('Vamos utilizar 2 numeros e fazer algumas operaçoes')
 print('-=-' * 20 + '\n')
+n1 = float(input('Digite o primeiro numero: '))
+n2 = float(input('Digite o segundo numero: '))
+s = False #stop
 
-s = 0 #stop
-
-while s == 0:
-    n1 = float(input('Digite o primeiro numero: '))
-    n2 = float(input('Digite o segundo numero: '))
-
+while not s:
     print('-=-' * 20)
     print('[1] somar')
     print('[2] multiplicar')
@@ -32,10 +30,14 @@ while s == 0:
             print(f'O maior entre {n1} e {n2} é: {n1}')
         else:
             m = n2
-            print(f'O menor entre {n1} e {n2} é: {n2}')
+            print(f'O maior entre {n1} e {n2} é: {n2}')
     elif p == 4: #novos numeros
-        s = 0
+        s = False
+        n1 = float(input('Digite o primeiro numero: '))
+        n2 = float(input('Digite o segundo numero: '))
     elif p == 5: #sair
-        s = 1
+        s = True
     else:
         print('Numero invalido!')
+
+print('Fim!')
