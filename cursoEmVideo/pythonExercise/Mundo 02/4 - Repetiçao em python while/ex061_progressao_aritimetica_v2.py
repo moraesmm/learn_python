@@ -5,5 +5,6 @@ r = int(input('Digite a razao da PA: ')) #razao
 d = n + (10 - 1) * r #decimo
 
 while n < d + r:
-    print(f'{n}')
+    print(f'{n}', end='')
     n += r
+    print(' → ' if n < d + r else ' → FIM!', end='')
